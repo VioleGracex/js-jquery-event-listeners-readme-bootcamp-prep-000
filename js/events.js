@@ -5,11 +5,8 @@ $(document).ready(function(){
 // call functions here
 
 });
-function getIt()
-{
-  $("p").on('keydown', function(key) {
-  if(key.which == 83){
-      alert('s was pressed');
+function getIt(){
+  $("p").on("click", function(){
+    window.alert("Hey!");
+    });
   }
-});
-}
