@@ -15,7 +15,7 @@ function getIt(){
       $("img").addClass("tasty");
     });
   }
-  
+
   function pressIt(){
     $("input").on("keydown", function(e){
       if (e.which === 71){
@@ -23,7 +23,7 @@ function getIt(){
       }
     });
   }
-  
+
   function submitIt(){
     $("form").on("submit", function(){
       window.alert("Your form is going to be submitted now.");
